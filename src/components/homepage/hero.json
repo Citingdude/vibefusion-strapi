@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "trophy"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "richtext",
+      "required": false
+    },
+    "Button": {
+      "type": "string"
+    },
+    "Button_alt": {
+      "type": "string"
+    }
+  }
+}
