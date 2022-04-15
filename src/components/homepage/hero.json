@@ -2,7 +2,8 @@
   "collectionName": "components_homepage_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "trophy"
+    "icon": "trophy",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,11 +11,16 @@
       "type": "richtext",
       "required": false
     },
-    "Button": {
-      "type": "string"
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.button"
     },
-    "Button_alt": {
-      "type": "string"
+    "button_alt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.button"
     }
   }
 }

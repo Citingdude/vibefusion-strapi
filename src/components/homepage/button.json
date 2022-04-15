@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_homepage_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
