@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.button"
+    }
+  }
+}
