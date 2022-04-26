@@ -750,6 +750,9 @@
                                             "slug": {
                                               "type": "string"
                                             },
+                                            "summary": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -1858,6 +1861,9 @@
                                           "slug": {
                                             "type": "string"
                                           },
+                                          "summary": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -2885,6 +2891,9 @@
                                           "slug": {
                                             "type": "string"
                                           },
+                                          "summary": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -3900,6 +3909,9 @@
                                             }
                                           },
                                           "slug": {
+                                            "type": "string"
+                                          },
+                                          "summary": {
                                             "type": "string"
                                           },
                                           "createdAt": {

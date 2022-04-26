@@ -37,6 +37,10 @@
       "type": "uid",
       "targetField": "Title",
       "required": true
+    },
+    "summary": {
+      "type": "richtext",
+      "maxLength": 250
     }
   }
 }
