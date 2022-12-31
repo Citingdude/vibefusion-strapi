@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_webdesign_whies",
+  "info": {
+    "displayName": "why",
+    "icon": "ankh",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "benefits": {
+      "displayName": "benefit",
+      "type": "component",
+      "repeatable": true,
+      "component": "webdesign.benefit"
+    }
+  }
+}

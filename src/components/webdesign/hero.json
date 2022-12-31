@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_webdesign_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "button_alt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    }
+  }
+}

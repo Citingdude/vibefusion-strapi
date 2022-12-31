@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_buttons_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "bacon"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "internal",
+        "external"
+      ]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

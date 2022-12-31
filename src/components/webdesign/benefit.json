@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_webdesign_benefits",
+  "info": {
+    "displayName": "benefit",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "rocket",
+        "target",
+        "eyeglass",
+        "brush",
+        "phone"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    }
+  }
+}
