@@ -10,11 +10,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.5.5",
     "@strapi/plugin-i18n": "4.5.5",
     "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "strapi-tiptap-editor": "^0.9.6"
+    "@strapi/strapi": "4.5.5"
   },
   "author": {
     "name": "A Strapi developer"
