@@ -12,14 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
-      "targetField": "Title"
+      "required": true
     },
-    "Hero": {
+    "hero": {
       "displayName": "Hero",
       "type": "component",
       "repeatable": false,

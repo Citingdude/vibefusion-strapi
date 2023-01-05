@@ -10,20 +10,25 @@
     "title": {
       "type": "string"
     },
-    "cta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.button"
-    },
-    "icon": {
-      "type": "string"
-    },
     "color": {
       "type": "enumeration",
       "enum": [
         "light",
         "dark"
       ]
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "webdesign",
+        "webshop",
+        "branding"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
     }
   }
 }
