@@ -29,7 +29,8 @@
     "services": {
       "type": "component",
       "repeatable": true,
-      "component": "homepage.services"
+      "component": "homepage.services",
+      "max": 4
     },
     "cta": {
       "type": "component",
