@@ -12,6 +12,11 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
     }
   }
 }
