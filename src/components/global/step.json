@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_global_steps",
+  "info": {
+    "displayName": "Step"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Step title"
+    },
+    "body": {
+      "type": "richtext",
+      "default": "Step body",
+      "required": true
+    }
+  }
+}

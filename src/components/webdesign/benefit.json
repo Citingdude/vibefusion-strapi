@@ -23,12 +23,10 @@
     "body": {
       "type": "richtext"
     },
-    "color": {
-      "type": "enumeration",
-      "enum": [
-        "light",
-        "dark"
-      ]
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
     }
   }
 }

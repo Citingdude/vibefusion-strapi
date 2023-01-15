@@ -4,7 +4,7 @@
   "info": {
     "singularName": "webdesign",
     "pluralName": "webdesigns",
-    "displayName": "webdesign",
+    "displayName": "Webdesign",
     "description": ""
   },
   "options": {
@@ -23,6 +23,18 @@
       "type": "component",
       "repeatable": false,
       "component": "webdesign.why"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": false,
+      "component": "webdesign.process",
+      "required": false
+    },
+    "faq": {
+      "displayName": "Faq",
+      "type": "component",
+      "repeatable": false,
+      "component": "webdesign.faq"
     }
   }
 }

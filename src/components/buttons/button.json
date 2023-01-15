@@ -25,7 +25,8 @@
       "type": "enumeration",
       "enum": [
         "purple",
-        "white"
+        "white",
+        "transparent"
       ]
     }
   }

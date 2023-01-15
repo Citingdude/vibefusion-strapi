@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_webdesign_processes",
+  "info": {
+    "displayName": "Process",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Title"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.step",
+      "max": 5,
+      "required": true
+    }
+  }
+}

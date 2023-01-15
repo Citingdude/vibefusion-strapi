@@ -8,21 +8,20 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true,
+      "default": "Title"
     },
     "body": {
-      "type": "richtext"
+      "type": "richtext",
+      "default": "Body text",
+      "required": true
     },
-    "button": {
-      "displayName": "button",
+    "buttons": {
       "type": "component",
-      "repeatable": false,
-      "component": "buttons.button"
-    },
-    "button_alt": {
-      "type": "component",
-      "repeatable": false,
-      "component": "buttons.button"
+      "repeatable": true,
+      "component": "buttons.button",
+      "max": 2
     }
   }
 }

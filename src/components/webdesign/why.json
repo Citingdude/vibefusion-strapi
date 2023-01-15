@@ -8,13 +8,15 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "benefits": {
       "displayName": "benefit",
       "type": "component",
       "repeatable": true,
-      "component": "webdesign.benefit"
+      "component": "webdesign.benefit",
+      "max": 6
     }
   }
 }
